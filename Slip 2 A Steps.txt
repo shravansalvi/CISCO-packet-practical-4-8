@@ -1,0 +1,23 @@
+Add vector layers, use this file “\IND_rails.shp and \IND_adm0.shp” from database, 
+set all appropriate properties, formatting and calculate line lengths and statistics with 
+total area covered by water bodies in India. 
+
+Step 1: 
+Click on layer --- > Add Vector Layer --- > IND_rails.shp -- > Add & Okk
+
+Step 2: 
+Click on layer --- > Add vector Layer --- > IND_adm0.shp -- > Add & Okk 
+go to the Properties of IND_adm0.shp in symboligy blue border 
+
+Step 3:
+Right Click on IND rails -- > Select Open Attribute Table --> Click on Open Field Cal --- > route_len --- > Decimal number 
+
+Expression $length / 1000 -- > Click on ok 
+
+save the changes 
+
+Step 4:
+click on vector --- > analysis tool --> basic Statics Field 
+
+Step 5:
+Giving Label to the IND_rails 

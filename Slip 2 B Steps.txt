@@ -1,0 +1,40 @@
+Add raster layers, use “gl_gpwv3_pdens_90_ascii_one\glds90ag60.asc”: 
+1. Set Properties, symbology 
+2. Apply raster styling and analysis 
+3. Apply raster mosaicking and clipping 
+Write all the steps and show proper output 
+
+Step 1:
+Click on Layer --- > Add Layer --- > Add Raster Layer glds90ag60.asc 
+Click on Layer --- > Add Layer --- > Add Raster Layer glds00ag60.asc
+
+Step 2:
+right Click glds90ag60.asc Properties --- > Symboly rendend type Singleband pseudocolor ---> max 240 
+right Click glds00ag60.asc Properties --- > Symboly rendend type Singleband pseudocolor ---> max 240 
+
+Step 3: 
+click on raster --- > Raster Cal --- > outputlayer : Population_difference ---> glds00ag60.asc - glds90ag60.asc -- > CRS ---
+
+---> WGS 84
+
+Step 4: 
+Disselect bot the layers
+glds00ag60.asc
+glds90ag60.asc
+
+population_difference --> Properties --- > Symboly rendend type Singleband pseudocolor ---> max 6000, min -20000, interpolation Discrete -- > Delete the values , add own --- > then Apply , Ok 
+
+For Apply raster mosaicking and clipping 
+new Project 
+
+Step 1 : 
+Click on layer --- > add Raster Layer -- > select all four images
+
+Step 2:
+Click on raster ---- > mislinous --- > merge -- > input layer --- > select all --- > then Disselect all the layer except the merged layer 
+
+Step 3: 
+Click on layer --- > add vector layer --- > IND_adm0.shp --- > add & Close -- > Change symbology 
+
+Step 4 : 
+Raster  --- > extraction --- > clip raster by mask 

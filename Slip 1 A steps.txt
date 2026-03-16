@@ -1,0 +1,32 @@
+Open "Open Street Map" 
+Search “University of Mumbai Fort Campus” 
+ Geo-reference the aerial image of University of Mumbai Fort Campus. 
+ Geo-reference the aerial image of Church gate Region. (Hint: use Image from 
+required Files) 
+
+Step 1 :
+install openlayer / Georeferencer Extension / Freehand raster georeferencer
+
+Step 2: 
+for openlayer ---- 1. web ----> openlayer -----> OpenstreetMap----> oenstreetmap
+
+for georeferencer --- 1.web------> QuickMap service ----> osm standard
+
+Step 3 :
+Go to Project ----- > 1. properties ------ > select WSG 84 / pseudo Mercator ----- > Click on apply
+
+Step 4:
+for Openlayer go in view panel click on OSM place search.
+for georeferencer go in plugins OSM place search.
+
+Step 5 
+For Openlayer go for raster ----- > geoeferencer --- > file --- > Open raster ---- > select Gateway airal imagery 
+then click on edit ----- > add point  -----  > select all coner
+
+For georeferencer go in Layer ----- > georeferencer --- >file --- > Open raster ---- > select Gateway airal imagery 
+then click on edit ----- > add point  -----  > select all coner
+
+Step 6:
+go to setting of georefrence click on transform its should be Thin Plate Spline then click on OK then Click on file and
+Start georefrencing 
+

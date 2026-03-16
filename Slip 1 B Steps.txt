@@ -1,0 +1,21 @@
+Import “10n060e_20101117_gmted_mea300.tif” raster data which represent surface 
+elevations map of India. 
+To study the elevation of hilly area of North India, extract the required Raster area by 
+Extent. Perform Terrain analysis using the above elevation map
+
+Step 1:
+go to add layer Click on Add Raster Layer ---- > Select the img middle one 
+
+in coordinates for mount Everest is 86.92,27.98, Change the scale 1:900000, Magnifier 100%
+
+Step 2 :
+Click on raster ---- > Extraction --- > Clip Raster Extents --- > Opening content Use Map canavs Extendthen Click on run 
+
+Step 3 : 
+click on raster --- > Extraction --- > Contuor --- > interval 100.then save the file ---> run 
+
+Step 4 : 
+right click on the countour file then properties --- > labels ---> value ELEV --- > add color ---> then OKK
+
+Step 5 : 
+click on raster --- > analysis --- > hillshade 
